@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--primary-color: hsl(150, 100%, 66%);
+	--secondary-color: hsl(193, 38%, 86%);
+	--sec-primary-color: hsl(217, 19%, 38%);
+	--pri-secondary-color: hsl(217, 19%, 24%);
+	--p-s-Dark-Blue_color: hsl(218, 23%, 16%);
+}
+body {
+	font-family: 'Manrope', sans-serif;
+	background-color: var(--p-s-Dark-Blue_color);
+	color: var(--secondary-color);
+	font-size: 28px;
+}
+.advice_container {
+	background-color: var(--pri-secondary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem;
+	margin: auto;
+	width: 30%;
+	margin-top: 20rem;
+	border-radius: 10px;
+	height: max-content;
+	position: relative;
+}
+.advice {
+	font-size: 1.2rem;
+	color: var(--primary-color);
+	font-weight: 800;
+	margin: 1rem;
+	display: flex;
+	gap: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	align-items: center;
+}
+.advice_num {
+	font-size: 1rem;
+}
+.advice_quote {
+	font-weight: 800;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: 100%;
+}
+.divider_line {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.dice_btn {
+	cursor: pointer;
+	background-color: var(--primary-color);
+	padding: 1.5rem;
+	border: none;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -2.5rem;
+}
+.dice_btn:hover {
+	box-shadow: 0 0 20px var(--primary-color);
+}
+.dice {
+	width: 30px;
+}

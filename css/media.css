@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+	body {
+		padding: 1rem;
+	}
+	.advice_container {
+		width: 100%;
+		box-shadow: 0 0 5px var(--primary-color);
+	}
+	.advice_quote {
+		font-size: 1.7rem;
+	}
+}
